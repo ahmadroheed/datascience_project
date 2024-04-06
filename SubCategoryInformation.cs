@@ -62,7 +62,7 @@ namespace datascience_project
             }
             else
             {
-                MessageBox.Show("Please fill all fields");
+                MessageBox.Show("Please fill all field");
             }
         }
 
