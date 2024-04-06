@@ -56,7 +56,7 @@
             // 
             this.textbox_categoryname.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textbox_categoryname.Location = new System.Drawing.Point(259, 67);
-            this.textbox_categoryname.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textbox_categoryname.Margin = new System.Windows.Forms.Padding(2);
             this.textbox_categoryname.Multiline = true;
             this.textbox_categoryname.Name = "textbox_categoryname";
             this.textbox_categoryname.Size = new System.Drawing.Size(365, 40);
@@ -82,7 +82,7 @@
             this.categorynameDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.tblcategoryBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(45, 142);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
@@ -119,7 +119,7 @@
             // btnSave
             // 
             this.btnSave.Location = new System.Drawing.Point(627, 68);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(2);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(123, 38);
             this.btnSave.TabIndex = 3;
@@ -133,19 +133,20 @@
             // 
             // btnUpdate
             // 
+            this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.btnUpdate.Location = new System.Drawing.Point(45, 383);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(123, 38);
             this.btnUpdate.TabIndex = 4;
             this.btnUpdate.Text = "Update";
-            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.UseVisualStyleBackColor = false;
             this.btnUpdate.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnDelete
             // 
             this.btnDelete.Location = new System.Drawing.Point(178, 383);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(2);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(123, 38);
             this.btnDelete.TabIndex = 5;
@@ -217,7 +218,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textbox_categoryname);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Category Registration";
